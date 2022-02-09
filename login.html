@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+	<script src="login.js"></script>
+</head>
+<body>
+
+	<h1>Login Page</h1>
+	<form onsubmit="formFilled(event)">
+		<table>
+			<tr>
+				<td><label>Email ID: </label></td>
+				<td><input type="email" id="email"></td>
+			</tr>
+			<tr>
+				<td><label>Password: </label></td>
+				<td><input type="password" id="password"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" id="submit" name="submit"></td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+</html>
